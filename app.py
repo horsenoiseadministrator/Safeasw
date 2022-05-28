@@ -26,7 +26,7 @@ filename = 'ukpostcodes.csv'
 with open(filename, 'r') as csvfile:
     datareader = csv.reader(csvfile)
     for row in datareader:
-        if row[1] == "pcode:
+        if row[1] == pcode:
             rehults = row[2] + ',' + row[3]
             
 csvfile.close
