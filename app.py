@@ -21,37 +21,37 @@ def api_id():
     else:
         return "Error: Please provide a postcode."
 
-filename = 'data_part_1.csv'
+    filename = 'data_part_1.csv'
 
-with open(filename, 'r') as csvfile:
-    datareader = csv.reader(csvfile)
-    for row in datareader:
-        if row[1] == pcode:
-            rehults = row[2] + ',' + row[3]
-            
-csvfile.close
-
-
-filename = 'data_part_2.csv'
-
-with open(filename, 'r') as csvfile:
-    datareader = csv.reader(csvfile)
-    for row in datareader:
-        if row[1] == pcode:
-            rehults = row[2] + ',' + row[3]
-            
-csvfile.close
+    with open(filename, 'r') as csvfile:
+        datareader = csv.reader(csvfile)
+        for row in datareader:
+            if row[1] == pcode:
+                rehults = row[2] + ',' + row[3]
+                
+    csvfile.close
 
 
-filename = 'data_part_3.csv'
+    filename = 'data_part_2.csv'
 
-with open(filename, 'r') as csvfile:
-    datareader = csv.reader(csvfile)
-    for row in datareader:
-        if row[1] == pcode:
-            rehults = row[2] + ',' + row[3]
-            
-csvfile.close
+    with open(filename, 'r') as csvfile:
+        datareader = csv.reader(csvfile)
+        for row in datareader:
+            if row[1] == pcode:
+                rehults = row[2] + ',' + row[3]
+                
+    csvfile.close
+
+
+    filename = 'data_part_3.csv'
+
+    with open(filename, 'r') as csvfile:
+        datareader = csv.reader(csvfile)
+        for row in datareader:
+            if row[1] == pcode:
+                rehults = row[2] + ',' + row[3]
+                
+    csvfile.close
 
     return rehults
 
