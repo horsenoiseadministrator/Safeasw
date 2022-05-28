@@ -9,7 +9,7 @@ app.config["DEBUG"] = True
 @app.route('/', methods=['GET'])
 def home():
     return '''<h1>Free UK postcode geocoder API</h1>
-<p>Uses a 2021 dataset from <a href='https://www.freemaptools.com/download-uk-postcode-lat-lng.htm'>Freemaptools</a></p><br><br><p>The endpoint is <a href='/api/v1/geocode?postcode=NC14AX'>/api/v1/geocode?postcode=yourpostcode</a></p>'''
+<p>Uses a 2021 dataset from <a href='https://www.freemaptools.com/download-uk-postcode-lat-lng.htm'>Freemaptools</a></p><br><br><p>The endpoint is <a href='/api/v1/geocode?postcode=N1C4AX'>/api/v1/geocode?postcode=yourpostcode</a></p>'''
 
 
 
