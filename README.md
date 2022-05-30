@@ -2,7 +2,7 @@
 Geocode UK postcodes without use of industry APIs (for DPA 2018 UK sovereignty requirements) 
 
 This is built using the Python Flask Framework, please feel free to use at your own discretion - I cannot accept any liability/support responsibility however.
-
+<br><br>
 
 
 
@@ -20,7 +20,7 @@ To run on Linux (locally):
 <code>flask run</code>
 
 
-
+<br><br>
 
 
 
